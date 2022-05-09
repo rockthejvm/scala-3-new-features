@@ -50,7 +50,8 @@ object TypeProjections {
   //    println(anInt + 1)
   //  }
 
-  // this code compiles and throws a ClassCastException (we've lost type safety)!
+  // in Scala 2, this code compiles and throws a ClassCastException (we've lost type safety)!
+  // in Scala 3, general type projections are not allowed
 
 
 }
